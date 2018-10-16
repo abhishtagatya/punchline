@@ -16,3 +16,4 @@ if user_guess == selected_content['punchline']:
     print("You just ruined my joke >:(")
 else :
     print(selected_content['punchline'])
+print(f"Joke by {selected_content['name']}")
